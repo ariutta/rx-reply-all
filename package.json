@@ -1,7 +1,7 @@
 {
   "name": "rx-thenable",
   "version": "1.0.0-alpha.0",
-  "description": "Let Rx automatically work with Observables, Promises and Callbacks.",
+  "description": "Patches RxJS to allow Observables to be consumed as Promises.",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test/spec/api.js"
