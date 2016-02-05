@@ -1,0 +1,28 @@
+{
+  "name": "rx-thenable",
+  "version": "1.0.0-alpha.0",
+  "description": "Let Rx automatically work with Observables, Promises and Callbacks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariutta/rx-thenable.git"
+  },
+  "keywords": [
+    "rx",
+    "reactive-extensions",
+    "promise",
+    "then"
+  ],
+  "author": "Anders Riutta",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ariutta/rx-thenable/issues"
+  },
+  "homepage": "https://github.com/ariutta/rx-thenable#readme",
+  "dependencies": {
+    "rx": "^4.0.7"
+  }
+}
