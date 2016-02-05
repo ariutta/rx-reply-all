@@ -4,7 +4,7 @@
   "description": "Let Rx automatically work with Observables, Promises and Callbacks.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test/spec/api.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,14 @@
   "homepage": "https://github.com/ariutta/rx-thenable#readme",
   "dependencies": {
     "rx": "^4.0.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.2.1",
+    "loggin": "^3.0.1",
+    "mocha": "^2.4.5",
+    "pretty-error": "^2.0.0",
+    "sinon": "^1.17.3",
+    "verror": "^1.6.1"
   }
 }
