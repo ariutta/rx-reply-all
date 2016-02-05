@@ -1,6 +1,6 @@
 {
   "name": "rx-thenable",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Patches RxJS to allow Observables to be consumed as Promises.",
   "main": "index.js",
   "scripts": {
