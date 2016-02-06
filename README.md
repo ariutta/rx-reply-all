@@ -3,7 +3,7 @@ Patches [RxJS](https://github.com/Reactive-Extensions/RxJS) to allow `Observable
 
 ```js
 var Rx = require('rx');
-require('rx-thenable');
+require('rx-thenable')(Rx);
 
 Rx.Observable.range(0, 5).then(function(result) {
     // on result

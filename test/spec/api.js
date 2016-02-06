@@ -5,7 +5,7 @@
 var _ = require('lodash');
 var expect = require('chai').expect;
 var Rx = require('rx');
-require('../../index.js');
+require('../../index.js')(Rx);
 var sinon = require('sinon');
 var sologger = require('../sologger.js');
 
